@@ -62,8 +62,8 @@
 				828D5C2E293285910013AABE /* SceneDelegate.swift */,
 				828D5C30293285910013AABE /* ViewController.swift */,
 				828D5C32293285910013AABE /* Main.storyboard */,
-				828D5C38293285910013AABE /* Assets.xcassets */,
 				828D5C3A293285910013AABE /* LaunchScreen.storyboard */,
+				828D5C38293285910013AABE /* Assets.xcassets */,
 				828D5C3D293285910013AABE /* Info.plist */,
 				828D5C35293285910013AABE /* CARE.xcdatamodeld */,
 			);
