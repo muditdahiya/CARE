@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		828D5C2D293285910013AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C2C293285910013AABE /* AppDelegate.swift */; };
 		828D5C2F293285910013AABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C2E293285910013AABE /* SceneDelegate.swift */; };
-		828D5C31293285910013AABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C30293285910013AABE /* ViewController.swift */; };
+		828D5C31293285910013AABE /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C30293285910013AABE /* SignUpScreen.swift */; };
 		828D5C34293285910013AABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828D5C32293285910013AABE /* Main.storyboard */; };
 		828D5C37293285910013AABE /* CARE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C35293285910013AABE /* CARE.xcdatamodeld */; };
 		828D5C39293285910013AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828D5C38293285910013AABE /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		828D5C29293285910013AABE /* CARE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		828D5C2C293285910013AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		828D5C2E293285910013AABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		828D5C30293285910013AABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		828D5C30293285910013AABE /* SignUpScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreen.swift; sourceTree = "<group>"; };
 		828D5C33293285910013AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		828D5C36293285910013AABE /* CARE.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CARE.xcdatamodel; sourceTree = "<group>"; };
 		828D5C38293285910013AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 			children = (
 				828D5C2C293285910013AABE /* AppDelegate.swift */,
 				828D5C2E293285910013AABE /* SceneDelegate.swift */,
-				828D5C30293285910013AABE /* ViewController.swift */,
+				828D5C30293285910013AABE /* SignUpScreen.swift */,
 				828D5C32293285910013AABE /* Main.storyboard */,
 				828D5C3A293285910013AABE /* LaunchScreen.storyboard */,
 				828D5C38293285910013AABE /* Assets.xcassets */,
@@ -142,7 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				828D5C37293285910013AABE /* CARE.xcdatamodeld in Sources */,
-				828D5C31293285910013AABE /* ViewController.swift in Sources */,
+				828D5C31293285910013AABE /* SignUpScreen.swift in Sources */,
 				828D5C2D293285910013AABE /* AppDelegate.swift in Sources */,
 				828D5C2F293285910013AABE /* SceneDelegate.swift in Sources */,
 			);
