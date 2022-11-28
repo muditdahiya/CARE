@@ -83,7 +83,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLb-tD-7gt" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1049.6183206106871" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="193" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="1hD-Ok-VPc">
@@ -135,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bi-qH-j5O" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1850" y="-2"/>
+            <point key="canvasLocation" x="1059" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="72S-in-BAu">
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pH4-RQ-D3r" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2690.8396946564885" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1915" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="GM1-WE-25o">
@@ -280,7 +280,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tb-KS-wfN" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3519.8473282442746" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="2821" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="SgO-wW-cjt">
@@ -338,7 +338,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHO-hw-g6X" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4285" y="-2"/>
+            <point key="canvasLocation" x="3573" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="2Ud-aJ-OM9">
@@ -467,14 +467,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgn-iY-3Rw" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5115.2671755725187" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="4431" y="-726"/>
         </scene>
     </scenes>
     <resources>
         <image name="CardBackground" width="329" height="301"/>
         <image name="icon" width="256" height="256"/>
         <namedColor name="backgroundText">
-            <color red="0.91764706370000004" green="0.90588235859999999" blue="0.84313726430000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.91764705882352937" green="0.90588235294117647" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
