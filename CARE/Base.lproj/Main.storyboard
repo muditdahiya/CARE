@@ -396,10 +396,6 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-j1-Sdp">
-                                <rect key="frame" x="26" y="323" width="342" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="vD4-J7-Crb">
                                 <rect key="frame" x="87" y="413" width="114" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -433,7 +429,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-vZ-DvK">
-                                <rect key="frame" x="26" y="487" width="342" height="128"/>
+                                <rect key="frame" x="26" y="498" width="342" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gip-fo-jIV">
@@ -472,6 +468,14 @@
                                 <rect key="frame" x="243" y="686" width="62" height="56"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Top 3 recommendations!" translatesAutoresizingMaskIntoConstraints="NO" id="Jhm-1b-e8F">
+                                <rect key="frame" x="16" y="298" width="298" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" systemColor="labelColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Welcome, " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pq7-ht-Icl">
                                 <rect key="frame" x="16" y="59" width="240" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -480,14 +484,10 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Top 3 recommendations!" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Jhm-1b-e8F">
-                                <rect key="frame" x="16" y="298" width="298" height="18"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-j1-Sdp">
+                                <rect key="frame" x="26" y="341" width="342" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SDh-13-le1"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
