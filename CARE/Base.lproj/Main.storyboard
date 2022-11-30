@@ -24,7 +24,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549019602" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,7 +83,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Prh-Vx-KXK"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pLb-tD-7gt" sceneMemberID="firstResponder"/>
@@ -135,7 +135,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="R5G-vA-7Ce"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bi-qH-j5O" sceneMemberID="firstResponder"/>
@@ -237,7 +237,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Mtf-Xu-SIf"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pH4-RQ-D3r" sceneMemberID="firstResponder"/>
@@ -338,7 +338,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eGY-fH-Btp"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tb-KS-wfN" sceneMemberID="firstResponder"/>
@@ -396,12 +396,12 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="kB5-TQ-2fk"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHO-hw-g6X" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3573" y="-726"/>
+            <point key="canvasLocation" x="2579" y="-726"/>
         </scene>
         <!--Sign Up Screen-->
         <scene sceneID="2Ud-aJ-OM9">
@@ -427,7 +427,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Iao-Vn-ZgN">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Iao-Vn-ZgN">
                                 <rect key="frame" x="76" y="162" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -439,7 +439,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-j1-Sdp">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-j1-Sdp">
                                 <rect key="frame" x="76" y="323" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -475,7 +475,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-vZ-DvK">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="vKB-vZ-DvK">
                                 <rect key="frame" x="76" y="487" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -499,7 +499,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eJu-rI-L61">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CardBackground" translatesAutoresizingMaskIntoConstraints="NO" id="eJu-rI-L61">
                                 <rect key="frame" x="76" y="650" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -525,12 +525,12 @@
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SDh-13-le1"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgn-iY-3Rw" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4431" y="-726"/>
+            <point key="canvasLocation" x="3292" y="-726"/>
         </scene>
         <!--Login Screen-->
         <scene sceneID="9UP-98-0MQ">
@@ -594,7 +594,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VaU-PI-AXM"/>
-                        <color key="backgroundColor" red="1" green="0.98431372549999996" blue="0.90980392160000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ylV-rF-3E4" sceneMemberID="firstResponder"/>
@@ -605,6 +605,9 @@
     <resources>
         <image name="CardBackground" width="329" height="301"/>
         <image name="icon" width="256" height="256"/>
+        <namedColor name="BackgroundColor">
+            <color red="1" green="0.98400002717971802" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <namedColor name="backgroundText">
             <color red="0.91764705882352937" green="0.90588235294117647" blue="0.84313725490196079" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
