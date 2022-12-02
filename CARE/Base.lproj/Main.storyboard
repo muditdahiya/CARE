@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jla-K2-lJx">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SGx-8y-hlr">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -548,13 +548,17 @@
         <scene sceneID="HT1-9T-Xsl">
             <objects>
                 <tabBarController id="SGx-8y-hlr" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lJN-39-fH0">
+                    <navigationItem key="navigationItem" id="gxl-fk-j8J"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backgroundImage="CardBackground" id="lJN-39-fH0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="K89-T7-Uvb" kind="relationship" relationship="viewControllers" id="mif-hb-5Gf"/>
+                        <segue destination="CgT-JH-pbq" kind="relationship" relationship="viewControllers" id="kyW-ue-Ogq"/>
+                        <segue destination="jla-K2-lJx" kind="relationship" relationship="viewControllers" id="Jk2-p6-5HY"/>
+                        <segue destination="fc5-C6-dRL" kind="relationship" relationship="viewControllers" id="xjP-Ty-mdt"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qgN-5u-zv6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -857,10 +861,11 @@
             </objects>
             <point key="canvasLocation" x="1292.3664122137404" y="1591.549295774648"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Browse-->
         <scene sceneID="F7h-qq-hqY">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CgT-JH-pbq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Browse" image="BrowseIcon" selectedImage="BrowseIcon" id="pAU-UZ-o5C"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="tDj-Ud-KMt">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -875,10 +880,11 @@
             </objects>
             <point key="canvasLocation" x="365.64885496183206" y="-472.53521126760563"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--History-->
         <scene sceneID="Bdl-Bo-aNp">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jla-K2-lJx" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="History" image="CalendarIcon" selectedImage="CalendarIcon" id="Adu-3a-e8c"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uzW-qh-kP8">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -893,10 +899,11 @@
             </objects>
             <point key="canvasLocation" x="365.64885496183206" y="860.56338028169023"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Profile-->
         <scene sceneID="IDK-wl-oaR">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fc5-C6-dRL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Profile" image="ProfileIcon" selectedImage="ProfileIcon" id="7yy-kJ-8Fj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="URf-Zk-JCH">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -1015,11 +1022,11 @@
             </objects>
             <point key="canvasLocation" x="-1463.3587786259541" y="-1889.4366197183099"/>
         </scene>
-        <!--Item-->
+        <!--Home-->
         <scene sceneID="1jn-9n-4aO">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="K89-T7-Uvb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="xAE-cM-omD"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="HomeIcon" selectedImage="HomeIcon" id="xAE-cM-omD"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="pgq-kq-d71">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
@@ -1036,8 +1043,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BrowseIcon" width="30" height="28"/>
         <image name="ButtonBackground" width="191" height="50"/>
+        <image name="CalendarIcon" width="30" height="28"/>
         <image name="CardBackground" width="329" height="301"/>
+        <image name="HomeIcon" width="30" height="28"/>
+        <image name="ProfileIcon" width="30" height="28"/>
         <image name="icon" width="256" height="256"/>
         <namedColor name="BackgroundColor">
             <color red="1" green="0.98400002717971802" blue="0.9100000262260437" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
