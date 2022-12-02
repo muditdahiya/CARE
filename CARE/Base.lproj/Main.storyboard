@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SGx-8y-hlr">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,7 +14,7 @@
         <!--Day Screen-->
         <scene sceneID="Ael-M9-I6C">
             <objects>
-                <viewController title="Day Screen" id="Q21-TM-8Lz" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Day Screen" id="Q21-TM-8Lz" customClass="DayScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rMu-X8-d4Q">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -68,7 +69,7 @@
         <!--Food Item Screen-->
         <scene sceneID="1hD-Ok-VPc">
             <objects>
-                <viewController title="Food Item Screen" id="AKO-qk-4Do" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Food Item Screen" id="AKO-qk-4Do" customClass="FoodItemScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fof-We-6jo">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -114,7 +115,7 @@
         <!--Edit Profile Screen-->
         <scene sceneID="72S-in-BAu">
             <objects>
-                <viewController title="Edit Profile Screen" id="8wY-lK-wyG" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Edit Profile Screen" id="8wY-lK-wyG" customClass="EditProfileScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Szi-Ny-B93">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -307,7 +308,7 @@
         <!--Add Inventory Screen-->
         <scene sceneID="SgO-wW-cjt">
             <objects>
-                <viewController title="Add Inventory Screen" id="chQ-Hc-KQ3" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Add Inventory Screen" id="chQ-Hc-KQ3" customClass="AddInventoryScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JjL-0e-feA">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -380,7 +381,7 @@
         <!--Home Screen-->
         <scene sceneID="2Ud-aJ-OM9">
             <objects>
-                <viewController title="Home Screen" id="8B4-NJ-68N" sceneMemberID="viewController">
+                <viewController title="Home Screen" id="8B4-NJ-68N" customClass="HomeScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RpH-0w-gnv">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -571,7 +572,7 @@
         <!--Browse Screen-->
         <scene sceneID="9eA-3N-63V">
             <objects>
-                <viewController title="Browse Screen" id="z1z-lM-77i" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Browse Screen" id="z1z-lM-77i" customClass="BrowseScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2iC-YH-gEa">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -623,7 +624,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Or-Kw-cO7">
-                                <rect key="frame" x="16" y="167" width="238" height="44"/>
+                                <rect key="frame" x="15" y="167" width="238" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" name="BackgroundColor"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -658,7 +659,7 @@
         <!--Calendar Screen-->
         <scene sceneID="cQM-Ga-wMx">
             <objects>
-                <viewController title="Calendar Screen" id="rsF-rB-bXq" sceneMemberID="viewController">
+                <viewController title="Calendar Screen" id="rsF-rB-bXq" customClass="CalendarScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ank-e2-rQf">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -672,7 +673,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <datePicker contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="vGh-Sm-599">
-                                <rect key="frame" x="15" y="290" width="360" height="209"/>
+                                <rect key="frame" x="13" y="290" width="361" height="209"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </datePicker>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eOe-sc-sgL">
@@ -716,7 +717,7 @@
         <!--Profile Screen-->
         <scene sceneID="aF4-ch-s51">
             <objects>
-                <viewController title="Profile Screen" id="hLV-lM-A5S" customClass="profile" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Profile Screen" id="hLV-lM-A5S" customClass="ProfileScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZcW-A6-k2f">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -924,7 +925,7 @@
         <!--Profile Setup Screen-->
         <scene sceneID="eHO-cR-SrU">
             <objects>
-                <viewController title="Profile Setup Screen" id="QcS-eM-rMz" customClass="SignUpScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Profile Setup Screen" id="QcS-eM-rMz" customClass="ProfileSetupScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Qb7-4K-K13">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

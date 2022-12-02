@@ -15,7 +15,7 @@
 import UIKit
 import FirebaseDatabase
 
-class profile: UIViewController {
+class ProfileScreen: UIViewController {
     var ref: DatabaseReference!
 
     override func viewDidLoad() {
