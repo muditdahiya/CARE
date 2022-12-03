@@ -107,10 +107,11 @@
                         <viewLayoutGuide key="safeArea" id="R5G-vA-7Ce"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
                     </view>
+                    <navigationItem key="navigationItem" id="2ie-Fo-Nh6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7bi-qH-j5O" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1292" y="189"/>
+            <point key="canvasLocation" x="2044" y="-473"/>
         </scene>
         <!--Edit Profile Screen-->
         <scene sceneID="72S-in-BAu">
@@ -376,7 +377,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JHO-hw-g6X" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2043.5114503816792" y="-473.23943661971833"/>
+            <point key="canvasLocation" x="1292" y="213"/>
         </scene>
         <!--Home Screen-->
         <scene sceneID="2Ud-aJ-OM9">
@@ -386,14 +387,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Top 4 recommendations!" translatesAutoresizingMaskIntoConstraints="NO" id="Jhm-1b-e8F">
-                                <rect key="frame" x="16" y="338" width="298" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="textColor" systemColor="labelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="APD-a4-YUS">
                                 <rect key="frame" x="16" y="396" width="361" height="381"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -462,13 +455,20 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="GXB-4m-Yb2">
-                                <rect key="frame" x="38" y="236" width="114" height="21"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXB-4m-Yb2">
+                                <rect key="frame" x="38" y="236" width="251" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Top 4 recommendations!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7yX-i5-Z10">
+                                <rect key="frame" x="16" y="355" width="219" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="SDh-13-le1"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
@@ -476,6 +476,9 @@
                     <navigationItem key="navigationItem" id="d1a-7Y-ECQ">
                         <barButtonItem key="backBarButtonItem" title="Home" id="Ub8-T2-kcZ"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="AKO-qk-4Do" kind="show" identifier="fromHomeToFoodItem" id="MzB-kC-gJ4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hgn-iY-3Rw" sceneMemberID="firstResponder"/>
             </objects>
@@ -654,6 +657,9 @@
                     <navigationItem key="navigationItem" id="YxR-j0-Fp6">
                         <barButtonItem key="backBarButtonItem" title="Browse" id="ox5-7s-fDu"/>
                     </navigationItem>
+                    <connections>
+                        <segue destination="AKO-qk-4Do" kind="show" identifier="fromBrowseToFoodItem" id="1HA-dd-SW0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezm-wU-lLm" sceneMemberID="firstResponder"/>
             </objects>
@@ -1049,6 +1055,9 @@
             <point key="canvasLocation" x="365.64885496183206" y="-1173.2394366197184"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="MzB-kC-gJ4"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>
         <image name="ButtonBackground" width="191" height="50"/>
