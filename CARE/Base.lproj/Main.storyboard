@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SGx-8y-hlr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ArT-WX-c3O">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
@@ -530,6 +530,9 @@
                                     <backgroundConfiguration key="background" cornerRadius="30" image="ButtonBackground"/>
                                     <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <segue destination="SGx-8y-hlr" kind="show" id="yPN-9w-St9"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="VaU-PI-AXM"/>
@@ -548,7 +551,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="HT1-9T-Xsl">
             <objects>
-                <tabBarController id="SGx-8y-hlr" sceneMemberID="viewController">
+                <tabBarController id="SGx-8y-hlr" customClass="TabBarController" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <navigationItem key="navigationItem" id="gxl-fk-j8J"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="lJN-39-fH0">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
