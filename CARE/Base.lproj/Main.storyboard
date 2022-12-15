@@ -439,23 +439,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Image" translatesAutoresizingMaskIntoConstraints="NO" id="tcP-5D-7k4">
-                                <rect key="frame" x="36" y="422" width="321" height="46"/>
-                                <color key="backgroundColor" name="backgroundText"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="321" id="eZm-Ds-sgQ"/>
-                                    <constraint firstAttribute="height" constant="46" id="tgZ-8W-FYU"/>
-                                </constraints>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-ul-VXL">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-ul-VXL">
                                 <rect key="frame" x="146" y="564" width="101" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="FJY-41-twK"/>
@@ -479,13 +463,10 @@
                         <constraints>
                             <constraint firstItem="mf6-1k-Ojp" firstAttribute="centerY" secondItem="JjL-0e-feA" secondAttribute="centerY" constant="-274.5" id="0le-a0-63b"/>
                             <constraint firstItem="uSq-Mv-bc3" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="8G7-nX-ING"/>
-                            <constraint firstItem="tcP-5D-7k4" firstAttribute="top" secondItem="Lsa-Wr-h39" secondAttribute="bottom" constant="32" id="8Ye-1p-WdE"/>
                             <constraint firstItem="uSq-Mv-bc3" firstAttribute="top" secondItem="mf6-1k-Ojp" secondAttribute="bottom" constant="100" id="EtM-dC-g13"/>
                             <constraint firstItem="Lsa-Wr-h39" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="IWS-4J-yaf"/>
                             <constraint firstItem="3fU-ul-VXL" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="K7V-dK-x4w"/>
-                            <constraint firstItem="tcP-5D-7k4" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="aTD-G5-TJH"/>
                             <constraint firstItem="Lsa-Wr-h39" firstAttribute="top" secondItem="uSq-Mv-bc3" secondAttribute="bottom" constant="32" id="gW0-Jk-0Km"/>
-                            <constraint firstItem="3fU-ul-VXL" firstAttribute="top" secondItem="tcP-5D-7k4" secondAttribute="bottom" constant="96" id="n9U-Nc-0fG"/>
                             <constraint firstItem="mf6-1k-Ojp" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="nAR-ag-vNV"/>
                         </constraints>
                     </view>
