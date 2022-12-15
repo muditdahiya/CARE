@@ -439,7 +439,7 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-ul-VXL">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3fU-ul-VXL">
                                 <rect key="frame" x="146" y="564" width="101" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="FJY-41-twK"/>
@@ -464,6 +464,7 @@
                             <constraint firstItem="mf6-1k-Ojp" firstAttribute="centerY" secondItem="JjL-0e-feA" secondAttribute="centerY" constant="-274.5" id="0le-a0-63b"/>
                             <constraint firstItem="uSq-Mv-bc3" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="8G7-nX-ING"/>
                             <constraint firstItem="uSq-Mv-bc3" firstAttribute="top" secondItem="mf6-1k-Ojp" secondAttribute="bottom" constant="100" id="EtM-dC-g13"/>
+                            <constraint firstItem="3fU-ul-VXL" firstAttribute="top" secondItem="Lsa-Wr-h39" secondAttribute="bottom" constant="174" id="I0x-qi-Zl1"/>
                             <constraint firstItem="Lsa-Wr-h39" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="IWS-4J-yaf"/>
                             <constraint firstItem="3fU-ul-VXL" firstAttribute="centerX" secondItem="JjL-0e-feA" secondAttribute="centerX" id="K7V-dK-x4w"/>
                             <constraint firstItem="Lsa-Wr-h39" firstAttribute="top" secondItem="uSq-Mv-bc3" secondAttribute="bottom" constant="32" id="gW0-Jk-0Km"/>
@@ -1311,7 +1312,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MzB-kC-gJ4"/>
+        <segue reference="1HA-dd-SW0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>
