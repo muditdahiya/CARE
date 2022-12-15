@@ -525,25 +525,42 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="169" height="169"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q6B-LI-fbw">
-                                                    <rect key="frame" x="52" y="52" width="64" height="64"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="q6B-LI-fbw">
+                                                    <rect key="frame" x="52.666666666666657" y="52.666666666666657" width="64" height="64"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="64" id="FYV-LH-kmr"/>
+                                                        <constraint firstAttribute="height" constant="64" id="bdQ-6b-pzE"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kxo-uk-Tax">
-                                                    <rect key="frame" x="27" y="8" width="114" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kxo-uk-Tax">
+                                                    <rect key="frame" x="27.666666666666671" y="11.666666666666664" width="114.00000000000001" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="K3b-uO-8mG"/>
+                                                        <constraint firstAttribute="width" secondItem="kxo-uk-Tax" secondAttribute="height" multiplier="38:7" id="vfb-oM-iuy"/>
+                                                    </constraints>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oW6-HL-I9b">
-                                                    <rect key="frame" x="27" y="140" width="114" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oW6-HL-I9b">
+                                                    <rect key="frame" x="27.666666666666671" y="136.66666666666666" width="114.00000000000001" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="0hL-Bd-EEz"/>
+                                                        <constraint firstAttribute="width" secondItem="oW6-HL-I9b" secondAttribute="height" multiplier="38:7" id="BmE-hW-Emb"/>
+                                                    </constraints>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="q6B-LI-fbw" firstAttribute="centerY" secondItem="pie-o8-8BA" secondAttribute="centerY" id="0u3-fQ-Xab"/>
+                                                <constraint firstItem="kxo-uk-Tax" firstAttribute="centerX" secondItem="pie-o8-8BA" secondAttribute="centerX" id="bhX-fQ-nnX"/>
+                                                <constraint firstItem="oW6-HL-I9b" firstAttribute="centerX" secondItem="pie-o8-8BA" secondAttribute="centerX" id="cI1-e6-Sz1"/>
+                                                <constraint firstItem="q6B-LI-fbw" firstAttribute="top" secondItem="kxo-uk-Tax" secondAttribute="bottom" constant="20" id="k0C-Fr-FVe"/>
+                                                <constraint firstItem="oW6-HL-I9b" firstAttribute="top" secondItem="q6B-LI-fbw" secondAttribute="bottom" constant="20" id="sbq-No-YvC"/>
+                                                <constraint firstItem="q6B-LI-fbw" firstAttribute="centerX" secondItem="pie-o8-8BA" secondAttribute="centerX" id="taq-9r-OOW"/>
+                                            </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="169" height="169"/>
                                     </collectionViewCell>
@@ -561,13 +578,19 @@
                                     <constraint firstAttribute="width" secondItem="Iao-Vn-ZgN" secondAttribute="height" multiplier="361:196" id="NHx-bU-nmr"/>
                                 </constraints>
                             </imageView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="P1V-L1-cuD">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="P1V-L1-cuD">
                                 <rect key="frame" x="38" y="302" width="317" height="4"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="4" id="9Ck-Nj-8qI"/>
+                                    <constraint firstAttribute="width" secondItem="P1V-L1-cuD" secondAttribute="height" multiplier="317:4" id="z8J-6h-INL"/>
+                                </constraints>
                             </progressView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXB-4m-Yb2">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXB-4m-Yb2">
                                 <rect key="frame" x="38" y="236" width="251" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="GXB-4m-Yb2" secondAttribute="height" multiplier="251:21" id="FC0-zO-fNb"/>
+                                    <constraint firstAttribute="height" constant="21" id="tzD-Jp-JEx"/>
+                                </constraints>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -578,9 +601,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6W9-BL-VTu">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6W9-BL-VTu">
                                 <rect key="frame" x="38" y="167" width="57" height="24"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -590,15 +612,21 @@
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
                             <constraint firstItem="Zb7-SZ-Kln" firstAttribute="centerY" secondItem="RpH-0w-gnv" secondAttribute="centerY" constant="-308.5" id="6Vt-hb-kll"/>
+                            <constraint firstItem="6W9-BL-VTu" firstAttribute="top" secondItem="Zb7-SZ-Kln" secondAttribute="bottom" constant="35" id="6c3-O8-sVB"/>
                             <constraint firstItem="APD-a4-YUS" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="6dm-ah-4d7"/>
                             <constraint firstItem="SDh-13-le1" firstAttribute="trailing" secondItem="Iao-Vn-ZgN" secondAttribute="trailing" constant="16" id="9cy-tq-HDH"/>
+                            <constraint firstItem="P1V-L1-cuD" firstAttribute="top" secondItem="GXB-4m-Yb2" secondAttribute="bottom" constant="45" id="BaD-kA-8rv"/>
                             <constraint firstItem="Iao-Vn-ZgN" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="Ino-tK-xzY"/>
                             <constraint firstItem="7yX-i5-Z10" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="JZC-kO-Fqn"/>
                             <constraint firstAttribute="bottom" secondItem="APD-a4-YUS" secondAttribute="bottom" constant="75" id="S7J-9L-3oc"/>
                             <constraint firstItem="SDh-13-le1" firstAttribute="trailing" secondItem="APD-a4-YUS" secondAttribute="trailing" constant="16" id="XjQ-mR-PXz"/>
                             <constraint firstItem="Zb7-SZ-Kln" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="ZWC-kV-e1o"/>
+                            <constraint firstItem="Iao-Vn-ZgN" firstAttribute="top" secondItem="Zb7-SZ-Kln" secondAttribute="bottom" constant="8" symbolic="YES" id="aUU-GO-u0s"/>
+                            <constraint firstItem="6W9-BL-VTu" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" constant="-130" id="dL3-Yx-lfl"/>
+                            <constraint firstItem="P1V-L1-cuD" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" id="eD5-DY-7d3"/>
+                            <constraint firstItem="GXB-4m-Yb2" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" constant="-33" id="fC2-Gk-0jr"/>
+                            <constraint firstItem="GXB-4m-Yb2" firstAttribute="top" secondItem="6W9-BL-VTu" secondAttribute="bottom" constant="45" id="oOz-G4-eic"/>
                             <constraint firstItem="APD-a4-YUS" firstAttribute="top" secondItem="7yX-i5-Z10" secondAttribute="bottom" constant="17" id="pnx-CK-Xse"/>
-                            <constraint firstItem="Iao-Vn-ZgN" firstAttribute="centerY" secondItem="RpH-0w-gnv" secondAttribute="centerY" constant="-188" id="rhw-3I-dGe"/>
                             <constraint firstItem="7yX-i5-Z10" firstAttribute="centerY" secondItem="RpH-0w-gnv" secondAttribute="centerY" constant="-59" id="xmS-wG-hWg"/>
                         </constraints>
                     </view>
@@ -742,25 +770,42 @@
                                                     <rect key="frame" x="9" y="13" width="342" height="128"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUY-pE-BbV">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUY-pE-BbV">
                                                     <rect key="frame" x="31" y="107" width="114" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="RUY-pE-BbV" secondAttribute="height" multiplier="38:7" id="DK6-Ms-gBK"/>
+                                                        <constraint firstAttribute="height" constant="21" id="gLX-1s-kt5"/>
+                                                    </constraints>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ShL-SN-ZNT">
-                                                    <rect key="frame" x="227" y="26" width="107" height="102"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ShL-SN-ZNT">
+                                                    <rect key="frame" x="227" y="25" width="107" height="102"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="102" id="6OD-rk-Gfw"/>
+                                                        <constraint firstAttribute="width" constant="107" id="Yda-bp-64C"/>
+                                                    </constraints>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0I-KN-5E3">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0I-KN-5E3">
                                                     <rect key="frame" x="31" y="26" width="114" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" secondItem="Z0I-KN-5E3" secondAttribute="height" multiplier="38:7" id="j5r-Sj-Id5"/>
+                                                        <constraint firstAttribute="height" constant="21" id="lcB-6r-n4X"/>
+                                                    </constraints>
                                                     <color key="textColor" systemColor="labelColor"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RUY-pE-BbV" firstAttribute="centerX" secondItem="gor-Ci-E4H" secondAttribute="centerX" constant="-92.5" id="5JU-wk-r8J"/>
+                                                <constraint firstItem="ShL-SN-ZNT" firstAttribute="centerY" secondItem="gor-Ci-E4H" secondAttribute="centerY" id="7RW-Km-CDe"/>
+                                                <constraint firstItem="Z0I-KN-5E3" firstAttribute="centerY" secondItem="gor-Ci-E4H" secondAttribute="centerY" constant="-39.5" id="GHW-Qp-rZn"/>
+                                                <constraint firstItem="RUY-pE-BbV" firstAttribute="centerY" secondItem="gor-Ci-E4H" secondAttribute="centerY" constant="41.5" id="Rzs-1k-cXo"/>
+                                                <constraint firstItem="Z0I-KN-5E3" firstAttribute="centerX" secondItem="gor-Ci-E4H" secondAttribute="centerX" constant="-92.5" id="Yp0-Rr-Lkq"/>
+                                                <constraint firstItem="ShL-SN-ZNT" firstAttribute="centerX" secondItem="gor-Ci-E4H" secondAttribute="centerX" constant="100" id="mej-2d-OO1"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
@@ -1304,7 +1349,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="MzB-kC-gJ4"/>
+        <segue reference="1HA-dd-SW0"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>
