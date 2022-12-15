@@ -505,7 +505,7 @@
                                                     <rect key="frame" x="0.0" y="0.0" width="169" height="169"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kxo-uk-Tax">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kxo-uk-Tax">
                                                     <rect key="frame" x="27.666666666666671" y="11.666666666666664" width="114.00000000000001" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="K3b-uO-8mG"/>
@@ -515,7 +515,7 @@
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                 </textView>
-                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oW6-HL-I9b">
+                                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="oW6-HL-I9b">
                                                     <rect key="frame" x="27.666666666666671" y="136.66666666666666" width="114.00000000000001" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="0hL-Bd-EEz"/>
@@ -527,8 +527,10 @@
                                                 </textView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstItem="oW6-HL-I9b" firstAttribute="top" secondItem="kxo-uk-Tax" secondAttribute="bottom" constant="104" id="X06-vh-eXA"/>
                                                 <constraint firstItem="kxo-uk-Tax" firstAttribute="centerX" secondItem="pie-o8-8BA" secondAttribute="centerX" id="bhX-fQ-nnX"/>
                                                 <constraint firstItem="oW6-HL-I9b" firstAttribute="centerX" secondItem="pie-o8-8BA" secondAttribute="centerX" id="cI1-e6-Sz1"/>
+                                                <constraint firstItem="kxo-uk-Tax" firstAttribute="centerY" secondItem="pie-o8-8BA" secondAttribute="centerY" constant="-62.329999999999998" id="jqQ-pL-n3A"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="169" height="169"/>
@@ -1309,7 +1311,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1HA-dd-SW0"/>
+        <segue reference="MzB-kC-gJ4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>
