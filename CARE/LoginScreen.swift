@@ -11,7 +11,8 @@ class LoginScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(p.getEmail())
+        print("hereerererere")
+        print(p!.getEmail())
         print("hereerererere")
     }
     
@@ -19,16 +20,19 @@ class LoginScreen: UIViewController {
 
     @IBOutlet weak var password: UITextView!
     
-    var p: Person = Person()
+    var p: Person?
     
     @IBAction func login(_ sender: UIButton) {
-        performSegue(withIdentifier: "LStoTBC", sender: self)
+        if(email.text! == p?.getEmail() && password.text! == p?.getPassword()) {
+            performSegue(withIdentifier: "LStoTBC", sender: self)
+        } else {
+            print(email.text)
+            print(p?.getEmail())
+            let alert = UIAlertController(title: "Email or password incorrect", message: "Please enter correct email and password", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
     }
-        
-    
-    
-
-
     /*
     // MARK: - Navigation
 

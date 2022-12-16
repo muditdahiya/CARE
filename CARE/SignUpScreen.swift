@@ -55,12 +55,18 @@ class SignUpScreen: UIViewController {
         }
         else
         {
+            p.setName(name.text)
+            p.setDOB(dob.text)
+            p.setEmail(email.text)
+            p.setPassword(password.text)
+            print(p.getEmail())
             performSegue(withIdentifier: "SUStoPSS", sender: self)
         }
     }
     
     
     @IBAction func login(_ sender: UIButton) {
+        p.setEmail(email.text)
         performSegue(withIdentifier: "SUStoLS", sender: self)
     }
     
@@ -69,15 +75,12 @@ class SignUpScreen: UIViewController {
         if segue.destination is ProfileSetupScreen
         {
             let vc = segue.destination as? ProfileSetupScreen
-//            vc?.name = self.name.text;
-//            vc?.status=1;
-//            vc?.p = self.password.text;
-            
+            vc?.p = p
         }
         if segue.destination is LoginScreen
         {
             let vc = segue.destination as? LoginScreen
-            vc?.p.setEmail(self.p.getEmail())
+            vc?.p = p
             
         }
     }
