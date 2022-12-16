@@ -60,6 +60,11 @@ class SignUpScreen: UIViewController {
     }
     
     @IBAction func login(_ sender: UIButton) {
+        p.setName(name.text)
+        p.setDOB(dob.text)
+        p.setEmail(email.text)
+        p.setPassword(password.text)
+        print(p.getEmail())
         performSegue(withIdentifier: "SUStoLS", sender: self)
     }
     
@@ -73,7 +78,6 @@ class SignUpScreen: UIViewController {
         {
             let vc = segue.destination as? LoginScreen
             vc?.p = p
-            
         }
     }
     

@@ -14,7 +14,7 @@ class Person {
     var password: String
     var height: String
     var weight: String
-    var targetCalories: Int
+    var targetCalories: Int = 0
     var todayCalories: Int = 0
     
     init () {

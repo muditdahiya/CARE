@@ -15,17 +15,16 @@ class HomeScreen: UIViewController {
     
     var ref: DatabaseReference!
     
+    var p: Person?
 
+    @IBOutlet var welcome: UILabel?
+    @IBOutlet var cals: UITextField?
     
     @IBOutlet weak var CollectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
         CollectionView.dataSource=self;
-       
         ref = Database.database().reference();
-
-        
-        
         ref.child("/").observe(.value) { snapshot in
                    if let datas = snapshot.children.allObjects as? [DataSnapshot] {
                        let results = datas.flatMap({
@@ -34,10 +33,12 @@ class HomeScreen: UIViewController {
                        print(results)
                    }
               }
-      
-        // Do any additional setup after loading the view.
-    }
 
+        print(p?.getEmail())
+        var today = p?.getTodayCalories()
+        var target = p?.getTargetCalories()
+        print(p?.getEmail())
+    }
 }
 extension HomeScreen: UICollectionViewDataSource
 {
@@ -55,7 +56,7 @@ extension HomeScreen: UICollectionViewDataSource
 
       func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! HomeCollectionViewCell
-          var imageView = UIImageView(image: UIImage(named: "icon"))
+          var imageView = UIImageView(image: UIImage(named: "CardBackground"))
           cell.addSubview(imageView)
           
           //MARK: - Add a constraint programmatically

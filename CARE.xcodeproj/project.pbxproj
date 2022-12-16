@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		82170F82294CCF0F00A37C85 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82170F81294CCF0F00A37C85 /* Person.swift */; };
+		82170F84294D060100A37C85 /* BrowseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82170F83294D060100A37C85 /* BrowseCollectionViewCell.swift */; };
+		82170F86294D074600A37C85 /* TBCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82170F85294D074600A37C85 /* TBCViewController.swift */; };
 		827A9476293AAB4C0092E310 /* ProfileSetupScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A9475293AAB4C0092E310 /* ProfileSetupScreen.swift */; };
 		827A9478293AAB7C0092E310 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A9477293AAB7C0092E310 /* LoginScreen.swift */; };
 		827A947A293AABA00092E310 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A9479293AABA00092E310 /* HomeScreen.swift */; };
@@ -19,8 +21,6 @@
 		827A9486293AAC850092E310 /* EditProfileScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A9485293AAC850092E310 /* EditProfileScreen.swift */; };
 		827A9488293AB1500092E310 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A9487293AB1500092E310 /* TabBarController.swift */; };
 		827A948C293AF9570092E310 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A948B293AF9570092E310 /* HomeCollectionViewCell.swift */; };
-		827A948E293AFCB20092E310 /* BrowseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A948D293AFCB20092E310 /* BrowseTableViewController.swift */; };
-		827A9490293AFCC90092E310 /* BrowseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827A948F293AFCC90092E310 /* BrowseTableViewCell.swift */; };
 		828D5C2D293285910013AABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C2C293285910013AABE /* AppDelegate.swift */; };
 		828D5C2F293285910013AABE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C2E293285910013AABE /* SceneDelegate.swift */; };
 		828D5C31293285910013AABE /* SignUpScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C30293285910013AABE /* SignUpScreen.swift */; };
@@ -42,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		82170F81294CCF0F00A37C85 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		82170F83294D060100A37C85 /* BrowseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseCollectionViewCell.swift; sourceTree = "<group>"; };
+		82170F85294D074600A37C85 /* TBCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TBCViewController.swift; sourceTree = "<group>"; };
 		827A9475293AAB4C0092E310 /* ProfileSetupScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetupScreen.swift; sourceTree = "<group>"; };
 		827A9477293AAB7C0092E310 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		827A9479293AABA00092E310 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
@@ -53,8 +55,6 @@
 		827A9485293AAC850092E310 /* EditProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileScreen.swift; sourceTree = "<group>"; };
 		827A9487293AB1500092E310 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		827A948B293AF9570092E310 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
-		827A948D293AFCB20092E310 /* BrowseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseTableViewController.swift; sourceTree = "<group>"; };
-		827A948F293AFCC90092E310 /* BrowseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrowseTableViewCell.swift; sourceTree = "<group>"; };
 		828D5C29293285910013AABE /* CARE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CARE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		828D5C2C293285910013AABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		828D5C2E293285910013AABE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -114,12 +114,12 @@
 				827A9479293AABA00092E310 /* HomeScreen.swift */,
 				827A948B293AF9570092E310 /* HomeCollectionViewCell.swift */,
 				827A947B293AABBB0092E310 /* BrowseScreen.swift */,
+				82170F83294D060100A37C85 /* BrowseCollectionViewCell.swift */,
 				827A947D293AABE30092E310 /* AddInventoryScreen.swift */,
+				82170F85294D074600A37C85 /* TBCViewController.swift */,
 				827A9481293AAC170092E310 /* CalendarScreen.swift */,
 				827A947F293AABFF0092E310 /* FoodItemScreen.swift */,
 				827A9487293AB1500092E310 /* TabBarController.swift */,
-				827A948D293AFCB20092E310 /* BrowseTableViewController.swift */,
-				827A948F293AFCC90092E310 /* BrowseTableViewCell.swift */,
 				827A9483293AAC300092E310 /* DayScreen.swift */,
 				DDF230C72939D1CE0044A107 /* ProfileScreen.swift */,
 				82170F81294CCF0F00A37C85 /* Person.swift */,
@@ -225,19 +225,19 @@
 				827A9488293AB1500092E310 /* TabBarController.swift in Sources */,
 				828D5C31293285910013AABE /* SignUpScreen.swift in Sources */,
 				828D5C2D293285910013AABE /* AppDelegate.swift in Sources */,
-				827A9490293AFCC90092E310 /* BrowseTableViewCell.swift in Sources */,
 				827A9476293AAB4C0092E310 /* ProfileSetupScreen.swift in Sources */,
 				827A947E293AABE30092E310 /* AddInventoryScreen.swift in Sources */,
 				827A9480293AABFF0092E310 /* FoodItemScreen.swift in Sources */,
 				827A948C293AF9570092E310 /* HomeCollectionViewCell.swift in Sources */,
 				827A947A293AABA00092E310 /* HomeScreen.swift in Sources */,
+				82170F86294D074600A37C85 /* TBCViewController.swift in Sources */,
 				827A9478293AAB7C0092E310 /* LoginScreen.swift in Sources */,
+				82170F84294D060100A37C85 /* BrowseCollectionViewCell.swift in Sources */,
 				DDF230C82939D1CE0044A107 /* ProfileScreen.swift in Sources */,
 				82170F82294CCF0F00A37C85 /* Person.swift in Sources */,
 				827A9486293AAC850092E310 /* EditProfileScreen.swift in Sources */,
 				827A947C293AABBB0092E310 /* BrowseScreen.swift in Sources */,
 				828D5C2F293285910013AABE /* SceneDelegate.swift in Sources */,
-				827A948E293AFCB20092E310 /* BrowseTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
