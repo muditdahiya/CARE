@@ -15,6 +15,8 @@ class LoginScreen: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    
+
 
     /*
     // MARK: - Navigation
@@ -25,5 +27,29 @@ class LoginScreen: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    @IBOutlet weak var email: UITextView!
+    
+    
+    
+    @IBOutlet weak var password: UITextView!
+    
+    
+    
+    @IBAction func login(_ sender: UIButton) {
+        
+        performSegue(withIdentifier: "LStoTBC", sender: self)
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
 
 }

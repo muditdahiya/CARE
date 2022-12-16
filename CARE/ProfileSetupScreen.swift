@@ -25,5 +25,36 @@ class ProfileSetupScreen: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    @IBOutlet weak var photo: UITextView!
+    
+    
+    @IBOutlet weak var height: UITextView!
+    
+    @IBOutlet weak var weight: UITextView!
+    
+    @IBOutlet weak var cal: UITextView!
+    
+    @IBAction func save(_ sender: UIButton) {
+//        if self.height == nil
+//        {
+//            let buttonAlert = UIAlertController(title: "Alert !", message: "You didn't fill the form", preferredStyle: .alert)
+//
+//            //2. Add an action for the alert to pop up when Submit button pressed
+//
+//            buttonAlert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+//                NSLog("The \"OK\" alert occured.")
+//            }))
+//
+//            self.present(buttonAlert, animated: true, completion: nil)
+//        }
+//        else
+//        {
+            performSegue(withIdentifier: "PSStoLS", sender: self)
+        //}
+    }
+    
+        
+        
 }
+    
+

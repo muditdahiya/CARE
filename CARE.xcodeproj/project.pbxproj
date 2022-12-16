@@ -27,7 +27,6 @@
 		828D5C37293285910013AABE /* CARE.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 828D5C35293285910013AABE /* CARE.xcdatamodeld */; };
 		828D5C39293285910013AABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 828D5C38293285910013AABE /* Assets.xcassets */; };
 		828D5C3C293285910013AABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 828D5C3A293285910013AABE /* LaunchScreen.storyboard */; };
-		82F0E4A4294C13D100CF66CF /* HomeCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F0E4A3294C13D100CF66CF /* HomeCollectionViewController.swift */; };
 		DDF230B329399FF60044A107 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DDF230B229399FF60044A107 /* GoogleService-Info.plist */; };
 		DDF230B62939A1990044A107 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = DDF230B52939A1990044A107 /* FirebaseAnalytics */; };
 		DDF230B82939A1990044A107 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = DDF230B72939A1990044A107 /* FirebaseAnalyticsOnDeviceConversion */; };
@@ -63,7 +62,6 @@
 		828D5C38293285910013AABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		828D5C3B293285910013AABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		828D5C3D293285910013AABE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82F0E4A3294C13D100CF66CF /* HomeCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewController.swift; sourceTree = "<group>"; };
 		DDF230B229399FF60044A107 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DDF230C72939D1CE0044A107 /* ProfileScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,13 +110,12 @@
 				827A9475293AAB4C0092E310 /* ProfileSetupScreen.swift */,
 				827A9477293AAB7C0092E310 /* LoginScreen.swift */,
 				827A9479293AABA00092E310 /* HomeScreen.swift */,
+				827A948B293AF9570092E310 /* HomeCollectionViewCell.swift */,
 				827A947B293AABBB0092E310 /* BrowseScreen.swift */,
 				827A947D293AABE30092E310 /* AddInventoryScreen.swift */,
 				827A9481293AAC170092E310 /* CalendarScreen.swift */,
 				827A947F293AABFF0092E310 /* FoodItemScreen.swift */,
 				827A9487293AB1500092E310 /* TabBarController.swift */,
-				827A948B293AF9570092E310 /* HomeCollectionViewCell.swift */,
-				82F0E4A3294C13D100CF66CF /* HomeCollectionViewController.swift */,
 				827A948D293AFCB20092E310 /* BrowseTableViewController.swift */,
 				827A948F293AFCC90092E310 /* BrowseTableViewCell.swift */,
 				827A9483293AAC300092E310 /* DayScreen.swift */,
@@ -224,7 +221,6 @@
 				827A9482293AAC170092E310 /* CalendarScreen.swift in Sources */,
 				827A9488293AB1500092E310 /* TabBarController.swift in Sources */,
 				828D5C31293285910013AABE /* SignUpScreen.swift in Sources */,
-				82F0E4A4294C13D100CF66CF /* HomeCollectionViewController.swift in Sources */,
 				828D5C2D293285910013AABE /* AppDelegate.swift in Sources */,
 				827A9490293AFCC90092E310 /* BrowseTableViewCell.swift in Sources */,
 				827A9476293AAB4C0092E310 /* ProfileSetupScreen.swift in Sources */,

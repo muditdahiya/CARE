@@ -6,28 +6,90 @@
 //
 
 import UIKit
-import FirebaseDatabase
+//import FirebaseDatabase
 
 class SignUpScreen: UIViewController {
-    var ref: DatabaseReference!
+  //  var ref: DatabaseReference!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        ref = Database.database().reference();
+        //ref = Database.database().reference();
     }
 
+
+//    @IBAction func save(_ sender: UIButton) {
+//
+//
+////        self.ref.child("food").child("item1").setValue(["name": name])
+////
+//    }
     
-
+    
+    
     @IBOutlet weak var name: UITextView!
-    @IBOutlet weak var cal: UITextView!
-
-    @IBAction func save(_ sender: UIButton) {
+    
+    
+    
+    @IBOutlet weak var email: UITextView!
+    
+    @IBOutlet weak var dob: UITextView!
+    
+    @IBOutlet weak var password: UITextView!
+    
+    
+    
+    @IBAction func signUp(_ sender: UIButton) {
         
         
-        self.ref.child("food").child("item1").setValue(["name": name])
+        if self.name.text == ""
+        {
+            let buttonAlert = UIAlertController(title: "Alert !", message: "You didn't fill the form", preferredStyle: .alert)
+            
+            //2. Add an action for the alert to pop up when Submit button pressed
+            
+            buttonAlert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
+                NSLog("The \"OK\" alert occured.")
+            }))
+            
+            self.present(buttonAlert, animated: true, completion: nil)
+        }
+        else
+        {
+            performSegue(withIdentifier: "SUStoPSS", sender: self)
+        }
+    }
+    
+    
+    @IBAction func login(_ sender: UIButton) {
+        
+        
+        performSegue(withIdentifier: "SUStoHS", sender: self)
         
     }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.destination is ProfileSetupScreen
+        {
+            let vc = segue.destination as? ProfileSetupScreen
+          //  vc?.loadViewIfNeeded()
+//            vc?.name = self.name.text;
+//            vc?.status=1;
+//            vc?.p = self.password.text;
+            
+        }
+        if segue.destination is LoginScreen
+        {
+            let vc = segue.destination as? LoginScreen
+          //  vc?.loadViewIfNeeded()
+//            vc?.name = self.name.text;
+//            vc?.status=1;
+//            vc?.p = self.password.text;
+            
+        }
+    }
+    
     
 }
 
