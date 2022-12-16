@@ -534,9 +534,8 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Ti-gAR">
-                                <rect key="frame" x="16" y="428" width="361" height="361"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="l6c-Ti-gAR">
+                                <rect key="frame" x="16" y="389" width="361" height="429"/>
                                 <color key="backgroundColor" name="BackgroundColor"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="n5T-Rw-Id8">
                                     <size key="itemSize" width="361" height="216"/>
@@ -604,7 +603,7 @@
                                                 <constraint firstItem="l2b-Ip-tAp" firstAttribute="centerX" secondItem="Hto-b3-cjk" secondAttribute="centerX" id="vVE-7l-B1f"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                        <color key="backgroundColor" name="BackgroundColor"/>
                                         <size key="customSize" width="361" height="226"/>
                                         <connections>
                                             <outlet property="foodCal" destination="l2b-Ip-tAp" id="N07-UK-fu7"/>
@@ -619,18 +618,22 @@
                         <viewLayoutGuide key="safeArea" id="SDh-13-le1"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="l6c-Ti-gAR" firstAttribute="top" secondItem="7yX-i5-Z10" secondAttribute="bottom" constant="10" id="4HT-Pr-lgH"/>
                             <constraint firstItem="Zb7-SZ-Kln" firstAttribute="centerY" secondItem="RpH-0w-gnv" secondAttribute="centerY" constant="-308.5" id="6Vt-hb-kll"/>
                             <constraint firstItem="6W9-BL-VTu" firstAttribute="top" secondItem="Zb7-SZ-Kln" secondAttribute="bottom" constant="35" id="6c3-O8-sVB"/>
                             <constraint firstItem="SDh-13-le1" firstAttribute="trailing" secondItem="Iao-Vn-ZgN" secondAttribute="trailing" constant="16" id="9cy-tq-HDH"/>
                             <constraint firstItem="P1V-L1-cuD" firstAttribute="top" secondItem="GXB-4m-Yb2" secondAttribute="bottom" constant="45" id="BaD-kA-8rv"/>
                             <constraint firstItem="Iao-Vn-ZgN" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="Ino-tK-xzY"/>
                             <constraint firstItem="7yX-i5-Z10" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="JZC-kO-Fqn"/>
+                            <constraint firstItem="l6c-Ti-gAR" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="QEl-uM-Qge"/>
                             <constraint firstItem="Zb7-SZ-Kln" firstAttribute="leading" secondItem="SDh-13-le1" secondAttribute="leading" constant="16" id="ZWC-kV-e1o"/>
                             <constraint firstItem="Iao-Vn-ZgN" firstAttribute="top" secondItem="Zb7-SZ-Kln" secondAttribute="bottom" constant="8" symbolic="YES" id="aUU-GO-u0s"/>
                             <constraint firstItem="6W9-BL-VTu" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" constant="-130" id="dL3-Yx-lfl"/>
                             <constraint firstItem="P1V-L1-cuD" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" id="eD5-DY-7d3"/>
                             <constraint firstItem="GXB-4m-Yb2" firstAttribute="centerX" secondItem="RpH-0w-gnv" secondAttribute="centerX" constant="-33" id="fC2-Gk-0jr"/>
+                            <constraint firstItem="SDh-13-le1" firstAttribute="bottom" secondItem="l6c-Ti-gAR" secondAttribute="bottom" id="hH0-Ng-mSE"/>
                             <constraint firstItem="GXB-4m-Yb2" firstAttribute="top" secondItem="6W9-BL-VTu" secondAttribute="bottom" constant="45" id="oOz-G4-eic"/>
+                            <constraint firstItem="SDh-13-le1" firstAttribute="trailing" secondItem="l6c-Ti-gAR" secondAttribute="trailing" constant="16" id="vKG-KX-CP2"/>
                             <constraint firstItem="7yX-i5-Z10" firstAttribute="centerY" secondItem="RpH-0w-gnv" secondAttribute="centerY" constant="-59" id="xmS-wG-hWg"/>
                         </constraints>
                     </view>
@@ -1379,9 +1382,6 @@
         </systemColor>
         <systemColor name="secondaryLabelColor">
             <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemBrownColor">
-            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
