@@ -22,7 +22,7 @@ class ProfileSetupScreen: UIViewController {
     @IBOutlet weak var cal: UITextView!
     
     @IBAction func save(_ sender: UIButton) {
-        if (height.text == nil)
+        if (height.text == "" || weight.text == "" || cal.text == "")
         {
             let buttonAlert = UIAlertController(title: "Alert !", message: "You didn't fill the form", preferredStyle: .alert)
 
@@ -46,7 +46,6 @@ class ProfileSetupScreen: UIViewController {
         {
             let vc = segue.destination as? LoginScreen
             vc?.p = p
-            
         }
     }
         

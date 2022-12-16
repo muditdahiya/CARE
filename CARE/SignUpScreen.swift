@@ -27,8 +27,6 @@ class SignUpScreen: UIViewController {
 ////
 //    }
     
-    
-    
     @IBOutlet weak var name: UITextView!
     
     @IBOutlet weak var email: UITextView!
@@ -38,14 +36,11 @@ class SignUpScreen: UIViewController {
     @IBOutlet weak var password: UITextView!
     
     
-    
     @IBAction func signUp(_ sender: UIButton) {
         
-        if self.name.text == ""
+        if (self.name.text == "")
         {
             let buttonAlert = UIAlertController(title: "Alert !", message: "You didn't fill the form", preferredStyle: .alert)
-            
-            //2. Add an action for the alert to pop up when Submit button pressed
             
             buttonAlert.addAction(UIAlertAction(title: NSLocalizedString("OK", comment: "Default action"), style: .default, handler: { _ in
                 NSLog("The \"OK\" alert occured.")
@@ -64,12 +59,9 @@ class SignUpScreen: UIViewController {
         }
     }
     
-    
     @IBAction func login(_ sender: UIButton) {
-        p.setEmail(email.text)
         performSegue(withIdentifier: "SUStoLS", sender: self)
     }
-    
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.destination is ProfileSetupScreen

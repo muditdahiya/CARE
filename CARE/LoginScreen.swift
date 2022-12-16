@@ -11,9 +11,6 @@ class LoginScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hereerererere")
-        print(p!.getEmail())
-        print("hereerererere")
     }
     
     @IBOutlet weak var email: UITextView!

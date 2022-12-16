@@ -14,7 +14,7 @@ class Person {
     var password: String
     var height: String
     var weight: String
-    var targetColories: Int
+    var targetCalories: Int
     var todayCalories: Int = 0
     
     init () {
@@ -24,7 +24,7 @@ class Person {
         password = ""
         height = ""
         weight = ""
-        targetColories = 0
+        targetCalories = 0
         todayCalories = 0
     }
     
@@ -35,7 +35,7 @@ class Person {
         self.password = password
         self.height = height
         self.weight = weight
-        self.targetColories = targetColories
+        self.targetCalories = targetColories
         self.todayCalories = 0
     }
     
@@ -82,10 +82,10 @@ class Person {
     }
     
     func setTargetCalories(_ cals:Int) {
-        self.targetColories = cals
+        self.targetCalories = cals
     }
     func getTargetCalories() -> Int {
-       return self.targetColories
+       return self.targetCalories
     }
     
     func addTodayCalories(_ cals:Int) {
