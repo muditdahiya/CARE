@@ -155,22 +155,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Choose Photo" translatesAutoresizingMaskIntoConstraints="NO" id="dpw-pK-rfv">
-                                <rect key="frame" x="36" y="270" width="321" height="46"/>
-                                <color key="backgroundColor" name="backgroundText"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="NMj-ky-mcu"/>
-                                    <constraint firstAttribute="width" constant="321" id="hMH-UD-iJy"/>
-                                </constraints>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Height" translatesAutoresizingMaskIntoConstraints="NO" id="gtw-TN-7fi">
                                 <rect key="frame" x="36" y="348" width="321" height="46"/>
                                 <color key="backgroundColor" name="backgroundText"/>
@@ -244,14 +228,11 @@
                             <constraint firstItem="YS2-US-VE7" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="1kk-LG-w07"/>
                             <constraint firstItem="YS2-US-VE7" firstAttribute="centerY" secondItem="Szi-Ny-B93" secondAttribute="centerY" constant="-259.5" id="1sB-Gg-JsD"/>
                             <constraint firstItem="iKz-Jm-gJ1" firstAttribute="top" secondItem="ne5-Ck-OZr" secondAttribute="bottom" constant="100" id="8Z5-9C-e2C"/>
-                            <constraint firstItem="dpw-pK-rfv" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="Bxz-4E-0u4"/>
                             <constraint firstItem="ne5-Ck-OZr" firstAttribute="top" secondItem="w7W-kj-apb" secondAttribute="bottom" constant="32" id="TRG-7m-WK5"/>
-                            <constraint firstItem="dpw-pK-rfv" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="UV5-mg-OpB"/>
+                            <constraint firstItem="gtw-TN-7fi" firstAttribute="top" secondItem="YS2-US-VE7" secondAttribute="bottom" constant="168" id="VKA-g7-XzP"/>
                             <constraint firstItem="w7W-kj-apb" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="ZwQ-Lw-iVV"/>
                             <constraint firstItem="w7W-kj-apb" firstAttribute="top" secondItem="gtw-TN-7fi" secondAttribute="bottom" constant="32" id="aK3-Fu-3If"/>
                             <constraint firstItem="iKz-Jm-gJ1" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="bn1-u0-54V"/>
-                            <constraint firstItem="dpw-pK-rfv" firstAttribute="top" secondItem="YS2-US-VE7" secondAttribute="bottom" constant="90" id="byb-g5-QkL"/>
-                            <constraint firstItem="gtw-TN-7fi" firstAttribute="top" secondItem="dpw-pK-rfv" secondAttribute="bottom" constant="32" id="e6r-9r-RRg"/>
                             <constraint firstItem="ne5-Ck-OZr" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="hFA-uF-4vw"/>
                             <constraint firstItem="gtw-TN-7fi" firstAttribute="centerX" secondItem="Szi-Ny-B93" secondAttribute="centerX" id="owb-K1-SAU"/>
                         </constraints>
@@ -1209,22 +1190,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Choose Photo" translatesAutoresizingMaskIntoConstraints="NO" id="Ric-YA-iq4">
-                                <rect key="frame" x="36" y="270" width="321" height="46"/>
-                                <color key="backgroundColor" name="backgroundText"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="b4G-yn-iWz"/>
-                                    <constraint firstAttribute="width" constant="321" id="qse-Pl-tcO"/>
-                                </constraints>
-                                <color key="textColor" systemColor="secondaryLabelColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="8"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Height" translatesAutoresizingMaskIntoConstraints="NO" id="EmJ-z1-J86">
                                 <rect key="frame" x="36" y="348" width="321" height="46"/>
                                 <color key="backgroundColor" name="backgroundText"/>
@@ -1296,15 +1261,13 @@
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
                             <constraint firstItem="FgF-KW-j0w" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="964-eJ-45B"/>
-                            <constraint firstItem="EmJ-z1-J86" firstAttribute="top" secondItem="Ric-YA-iq4" secondAttribute="bottom" constant="32" id="F4g-8X-f3B"/>
                             <constraint firstItem="av2-fC-QA3" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="SzK-dd-Rkr"/>
+                            <constraint firstItem="EmJ-z1-J86" firstAttribute="top" secondItem="FgF-KW-j0w" secondAttribute="bottom" constant="167" id="XHV-xI-qro"/>
                             <constraint firstItem="KTp-7M-gFo" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="a2P-Sq-guz"/>
                             <constraint firstItem="gH7-JO-JTh" firstAttribute="top" secondItem="av2-fC-QA3" secondAttribute="bottom" constant="64" id="aSO-E1-Bwn"/>
-                            <constraint firstItem="Ric-YA-iq4" firstAttribute="centerY" secondItem="Qb7-4K-K13" secondAttribute="centerY" constant="-133" id="bVD-3Y-rET"/>
                             <constraint firstItem="FgF-KW-j0w" firstAttribute="centerY" secondItem="Qb7-4K-K13" secondAttribute="centerY" constant="-258.5" id="eL3-hE-zfh"/>
                             <constraint firstItem="av2-fC-QA3" firstAttribute="top" secondItem="KTp-7M-gFo" secondAttribute="bottom" constant="32" id="gtS-jK-pm4"/>
                             <constraint firstItem="EmJ-z1-J86" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="hEc-vZ-TS0"/>
-                            <constraint firstItem="Ric-YA-iq4" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="lUc-5n-L2x"/>
                             <constraint firstItem="KTp-7M-gFo" firstAttribute="top" secondItem="EmJ-z1-J86" secondAttribute="bottom" constant="32" id="pXx-Lf-4GL"/>
                             <constraint firstItem="gH7-JO-JTh" firstAttribute="centerX" secondItem="Qb7-4K-K13" secondAttribute="centerX" id="yNx-hd-qzw"/>
                         </constraints>
@@ -1313,7 +1276,6 @@
                     <connections>
                         <outlet property="cal" destination="av2-fC-QA3" id="dZB-d8-ZB9"/>
                         <outlet property="height" destination="EmJ-z1-J86" id="29P-Ki-Vsm"/>
-                        <outlet property="photo" destination="Ric-YA-iq4" id="tdk-0r-U4i"/>
                         <outlet property="weight" destination="KTp-7M-gFo" id="T6N-sz-md1"/>
                         <segue destination="fIF-es-Hyj" kind="show" identifier="PSStoLS" id="vev-hJ-nDX"/>
                     </connections>
@@ -1361,7 +1323,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="2X7-Yc-RzF"/>
+        <segue reference="vev-hJ-nDX"/>
         <segue reference="dcB-cO-SN2"/>
         <segue reference="MzB-kC-gJ4"/>
     </inferredMetricsTieBreakers>
