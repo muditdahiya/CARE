@@ -37,7 +37,7 @@ class SignUpScreen: UIViewController {
     
     @IBOutlet weak var password: UITextView!
     
-    
+    var p: Person = Person()
     
     @IBAction func signUp(_ sender: UIButton) {
         
