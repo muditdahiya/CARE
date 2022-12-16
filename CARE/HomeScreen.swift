@@ -80,7 +80,7 @@ extension HomeScreen: UICollectionViewDataSource
          
           
           
-          var imageView = UIImageView(image: UIImage(named: "icon"))
+          var imageView = UIImageView(image: UIImage(named: "CardBackground"))
           cell.addSubview(imageView)
           
           //MARK: - Add a constraint programmatically
@@ -93,6 +93,8 @@ extension HomeScreen: UICollectionViewDataSource
           //Set the width and height
           imageView.widthAnchor.constraint(equalTo: cell.widthAnchor, multiplier: 1.0).isActive = true
           imageView.heightAnchor.constraint(equalTo: cell.heightAnchor, multiplier: 1.0).isActive = true
+          
+          imageView.layer.zPosition = -1
           
           cell.foodName.text="asas";
           cell.foodCal.text="asas";
