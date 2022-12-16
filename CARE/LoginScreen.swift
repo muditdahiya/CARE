@@ -35,9 +35,9 @@ class LoginScreen: UIViewController {
             let vc = segue.destination as? HomeScreen
             vc?.p = p
         }
-        if segue.destination is TabBarController
+        if segue.destination is TBCViewController
         {
-            let vc = segue.destination as? TabBarController
+            let vc = segue.destination as? TBCViewController
             vc?.p = p
         }
     }
