@@ -15,7 +15,7 @@ class Person {
     var height: String
     var weight: String
     var targetColories: Int
-    var todayCalories: Int
+    var todayCalories: Int = 0
     
     init () {
         name = ""
