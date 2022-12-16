@@ -495,7 +495,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Scd-Cv-6g1" customClass="HomeCollectionViewCell" customModule="CARE" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="Scd-Cv-6g1">
                                         <rect key="frame" x="0.0" y="0.0" width="169" height="169"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="pie-o8-8BA">
@@ -849,7 +849,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" style="wheels" translatesAutoresizingMaskIntoConstraints="NO" id="vGh-Sm-599">
-                                <rect key="frame" x="17" y="292" width="360" height="209"/>
+                                <rect key="frame" x="16.666666666666657" y="292" width="360" height="209"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="360" id="eO2-Af-7uc"/>
                                     <constraint firstAttribute="height" constant="209" id="q5y-5K-0di"/>
@@ -1312,7 +1312,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="1HA-dd-SW0"/>
+        <segue reference="MzB-kC-gJ4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>
