@@ -401,6 +401,7 @@
                         <outlet property="password" destination="n0c-S8-B4l" id="nQZ-Xe-XlR"/>
                         <segue destination="QcS-eM-rMz" kind="show" identifier="SUStoPSS" id="tgX-4L-UVo"/>
                         <segue destination="8B4-NJ-68N" kind="show" identifier="SUStoHS" id="dcB-cO-SN2"/>
+                        <segue destination="fIF-es-Hyj" kind="show" identifier="SUStoLS" id="2X7-Yc-RzF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Tb-KS-wfN" sceneMemberID="firstResponder"/>
@@ -652,7 +653,7 @@
         <!--Login Screen-->
         <scene sceneID="9UP-98-0MQ">
             <objects>
-                <viewController title="Login Screen" id="fIF-es-Hyj" customClass="LoginScreen" sceneMemberID="viewController">
+                <viewController title="Login Screen" id="fIF-es-Hyj" customClass="LoginScreen" customModule="CARE" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qY1-kj-ikA">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -727,8 +728,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="9z9-bs-Bcf"/>
                     <connections>
-                        <outlet property="email" destination="VWA-m7-kwm" id="FOd-Gq-a79"/>
-                        <outlet property="password" destination="lAe-4Z-R35" id="6OC-Te-fi5"/>
+                        <outlet property="email" destination="VWA-m7-kwm" id="SEG-6B-geI"/>
+                        <outlet property="password" destination="lAe-4Z-R35" id="ZqO-tn-qhO"/>
                         <segue destination="SGx-8y-hlr" kind="show" identifier="LStoTBC" id="dE9-xe-ktx"/>
                     </connections>
                 </viewController>
@@ -1356,12 +1357,13 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PhS-9D-1jE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="365.64885496183206" y="-1173.2394366197184"/>
+            <point key="canvasLocation" x="366" y="-1130"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="2X7-Yc-RzF"/>
         <segue reference="dcB-cO-SN2"/>
-        <segue reference="1HA-dd-SW0"/>
+        <segue reference="MzB-kC-gJ4"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="BrowseIcon" width="30" height="28"/>

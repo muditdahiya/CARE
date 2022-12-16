@@ -16,6 +16,8 @@ class SignUpScreen: UIViewController {
         // Do any additional setup after loading the view.
         //ref = Database.database().reference();
     }
+    
+    var p: Person = Person()
 
 
 //    @IBAction func save(_ sender: UIButton) {
@@ -29,18 +31,15 @@ class SignUpScreen: UIViewController {
     
     @IBOutlet weak var name: UITextView!
     
-    
-    
     @IBOutlet weak var email: UITextView!
     
     @IBOutlet weak var dob: UITextView!
     
     @IBOutlet weak var password: UITextView!
     
-    var p: Person = Person()
+    
     
     @IBAction func signUp(_ sender: UIButton) {
-        
         
         if self.name.text == ""
         {
@@ -62,10 +61,7 @@ class SignUpScreen: UIViewController {
     
     
     @IBAction func login(_ sender: UIButton) {
-        
-        
-        performSegue(withIdentifier: "SUStoHS", sender: self)
-        
+        performSegue(withIdentifier: "SUStoLS", sender: self)
     }
     
     
@@ -73,7 +69,6 @@ class SignUpScreen: UIViewController {
         if segue.destination is ProfileSetupScreen
         {
             let vc = segue.destination as? ProfileSetupScreen
-          //  vc?.loadViewIfNeeded()
 //            vc?.name = self.name.text;
 //            vc?.status=1;
 //            vc?.p = self.password.text;
@@ -82,10 +77,7 @@ class SignUpScreen: UIViewController {
         if segue.destination is LoginScreen
         {
             let vc = segue.destination as? LoginScreen
-          //  vc?.loadViewIfNeeded()
-//            vc?.name = self.name.text;
-//            vc?.status=1;
-//            vc?.p = self.password.text;
+            vc?.p.setEmail(self.p.getEmail())
             
         }
     }

@@ -34,8 +34,6 @@ class HomeScreen: UIViewController {
                        print(results)
                    }
               }
-      
-        // Do any additional setup after loading the view.
     }
     
     

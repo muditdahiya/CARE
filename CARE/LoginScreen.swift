@@ -11,9 +11,20 @@ class LoginScreen: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        print(p.getEmail())
+        print("hereerererere")
     }
+    
+    @IBOutlet weak var email: UITextView!
+
+    @IBOutlet weak var password: UITextView!
+    
+    var p: Person = Person()
+    
+    @IBAction func login(_ sender: UIButton) {
+        performSegue(withIdentifier: "LStoTBC", sender: self)
+    }
+        
     
     
 
@@ -28,22 +39,7 @@ class LoginScreen: UIViewController {
     }
     */
     
-    @IBOutlet weak var email: UITextView!
-    
-    
-    
-    @IBOutlet weak var password: UITextView!
-    
-    
-    
-    @IBAction func login(_ sender: UIButton) {
-        
-        performSegue(withIdentifier: "LStoTBC", sender: self)
-        
-        
-        
-    }
-    
+
     
     
     
